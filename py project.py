@@ -137,7 +137,7 @@ def bs():
     cap_inst=tkinter.Label(face,text="All calorific values are for 100 grams").grid(row=1,column=1)
     clicked=StringVar()
     clicked.set("Select Food Item")
-    selection=tkinter.OptionsMenu(face,clicked,"")
+    selection=tkinter.OptionsMenu(face,clicked,'Bottle Gourd','Alchohol','Aloo Parantha','Apple','Banana','Beans','Beer','Bitter Gourd','Black Tea','Boiled Egg','Boiled Rice','Bread','Brinjal','Broccoli','Butter','Butter Chicken', 'Butter Naan','Cabbage','Cappucino','Capsicum','Cauliflower','Cereal/Oats with Milk', 'Cheese','Cherries ','Chicken Curry','Chicken Tikka Masala','Cold Drink','Cooked Chicken','Cooked Pork','Crab','Cream','Curd','Dal/Lentils','Drumsticks','Egg','Flavoured Milk ','French Beans','Fried Chicken','Fried Egg''Fried Fish','Fried Potato','Fried Rice','Fruit Juice','Ghee','Grapes','Green Peas','Green Tea','Guava','Idly','Kidney Beans','Lady\'s Finger','Lemon','Litchi','Mango','Masala Dosa','Mashed Potato','Meat','Melon','Milk Tea','Milkshake','Mixed Veggies','Mushrooms','Mutton Biryani','Naan','Omelette','Orange','Palak Paneer','Paneer','Papas','Parantha','Pav','Peach','Pear','Pickle','Plain Dosa','Plain MIlk','Pomegranate','Pomfret','Prawns','Pumpkin','Puri','Radish','Ragi','Ridge Gourd', 'Roti', 'Salad', 'Salmon', 'Sambar', 'Scrambled Egg','Soda','Soup', 'Soya Beans','Spinach', 'Sprouts','Squid', 'Strawberry', 'Sugar', 'Sweet Potato', 'Tandoori Chicken', 'Tender Cocnut','Tomato','Vegetable Curry','Vegetable Rice', 'Vermicelli', 'Watermelon', 'Whole Milk','Zucchini')
     food_submit=tkinter.Button(face,text="Add food item",command=cal).grid(row=3,column=0)
     final_submit=tkinter.Button(face,text="Get total calorie intake",command=gp).grid(row=3,column=1)
 
